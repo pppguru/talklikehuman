@@ -1,0 +1,89 @@
+PODS:
+  - Alamofire (4.0.0)
+  - FirebaseAnalytics (3.2.1):
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.3)
+  - FirebaseInstanceID (1.0.7)
+  - FontasticIcons (0.5.0)
+  - Google/Analytics (3.0.3):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleAnalytics (3.14.0)
+  - GoogleAppUtilities (1.1.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (2.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (4.0.0):
+    - GoogleAppUtilities (~> 1.1)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.3)
+  - GoogleSymbolUtilities (1.1.1)
+  - GoogleUtilities (1.3.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - JCDialPad (0.1.1):
+    - libPhoneNumber-iOS
+  - libPhoneNumber-iOS (0.8.16)
+  - ReachabilitySwift (2.3.3)
+  - SVProgressHUD (2.0.3)
+  - TwilioSDK (1.2.11)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - FontasticIcons
+  - Google/Analytics
+  - Google/SignIn
+  - JCDialPad
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift.git`)
+  - SVProgressHUD
+  - TwilioSDK
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 8ac0e19fe0d4debcfb6f394c012db99caaf741c9
+    :git: https://github.com/Alamofire/Alamofire.git
+  ReachabilitySwift:
+    :commit: 7c741cf864cf7edd4a16c5fad60a99d87fc74945
+    :git: https://github.com/ashleymills/Reachability.swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  FirebaseAnalytics: 0fd6532cb2c3d03cd5cf26ad295ccb091efd3104
+  FirebaseInstanceID: a9d923f3d0b6fbf9fac89310860357aaadc34be5
+  FontasticIcons: f20740bf8f1d3565c312f1c3b9806339212b58aa
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleAppUtilities: f1730f91f67767b453c289577040dd3f425ffdc7
+  GoogleAuthUtilities: d7a19615cd7627688afcf181737f1011ee8b5a23
+  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
+  GoogleSignIn: 09036ed61f8e75f1424100d63f7719480b2428c3
+  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
+  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  JCDialPad: d977d1ff76eaaa1939c5f3b8882937094e093b3d
+  libPhoneNumber-iOS: acb5805f67892db37adc3440290a367923672b51
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TwilioSDK: c1efd3b273c243b5a034baa0d29ad370afb893d9
+
+PODFILE CHECKSUM: 39b534d61348bbbc5fac29714cd66791ea5f8d56
+
+COCOAPODS: 1.0.1
